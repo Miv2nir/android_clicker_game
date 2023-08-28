@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Clicker Thingy</string>
+    <string name="click_me">Click Me</string>
+    <string name="press_the_button">Press the button!</string>
+    <string name="_1_to_click_points">+1 to click points</string>
+    <string name="_1_every_second_at_runtime">+1 every second at runtime</string>
+    <string name="_1_every_second_in_the_background">+1 every 15 seconds in the background</string>
+    <string name="delete_save">Delete Saved Data</string>
+    <string name="made_by_miv_p">Made by Miv :P</string>
+</resources>

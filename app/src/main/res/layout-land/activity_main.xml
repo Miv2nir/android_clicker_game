@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <Button
+            android:layout_width="191dp"
+            android:layout_height="37dp"
+            android:id="@+id/wipeout"
+            android:text="@string/delete_save" />
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/textCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/press_the_button"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/clickerButton"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight=".10"
+            android:text="@string/click_me" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:paddingBottom="4dp">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/labelH1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-100"
+                    android:textAlignment="center" />
+                <Button
+                    android:id="@+id/option1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="0"
+                    android:layout_weight=".100"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:layout_height="55dp"
+                    android:id="@+id/label1"
+                    android:text="@string/_1_to_click_points"/>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/labelH2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-500"
+                    android:textAlignment="center" />
+                <Button
+                    android:id="@+id/option2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="0"
+                    android:layout_weight=".100"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:layout_height="55dp"
+                    android:id="@+id/label2"
+                    android:text="@string/_1_every_second_at_runtime"/>
+            </LinearLayout>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/labelH3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-2000"
+                    android:textAlignment="center" />
+                <Button
+                    android:id="@+id/option3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:text="0"
+                    android:layout_weight=".100"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:layout_height="55dp"
+                    android:id="@+id/label3"
+                    android:text="@string/_1_every_second_in_the_background"/>
+            </LinearLayout>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/textMiv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/made_by_miv_p"
+            android:paddingBottom="5dp"
+            android:textSize="10sp"/>
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
